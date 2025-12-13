@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style1.css" />
+    <title>Create</title>
+</head>
+
+<body>
+    <video autoplay muted loop playsinline id="bg-video">
+        <source src="the-drive-on-the-road-at-sunset.3840x2160.mp4" type="video/mp4" />
+    </video>
+    <div class="megaContainer">
+        <div class="container">
+            <div class="form">
+                <form class="details" id="form">
+                    <label for="Title">Title : </label>
+                    <br /><br />
+                    <input type="text" id="Title" autocomplete="off" placeholder="Title of your Video" />
+                    <br /><br />
+                    <label for="Name">Channel Name : </label>
+                    <br /><br />
+                    <input type="text" id="Name" autocomplete="off" placeholder="Name of the Channel" />
+                    <br /><br />
+                    <label for="views">Views : </label>
+                    <br /><br />
+                    <input type="number" id="views" autocomplete="off" placeholder="Views of your Video" />
+                    <br /><br />
+                    <label for="time">Uplaod Time : </label>
+                    <br /><br />
+                    <input type="number" id="time" autocomplete="off" placeholder="Uplaod Time of the Video" />
+                    <br /><br />
+                    <label for="duration">Duration : </label>
+                    <br /><br />
+                    <input type="text" id="duration" autocomplete="off" placeholder="Duration of the Video" />
+                    <br /><br />
+                    <label for="thumbnail">Thumbnail : </label>
+                    <br /><br />
+                    <input type="file" id="thumbnail" accept="video/*"/>
+                    <br /><br />
+                    <button id="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="card">
+                <div id="image">
+                    <video src="celestial-veil.3840x2160.mp4" controls width="455" autoplay loop muted></video>
+                    <div class="duration">00:11</div>
+                </div>
+                <div id="text">
+                    <h1>Introduction to Backend | Web Development</h1>
+                    <p>Garry Kasporva, 895k views, 2 months ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+
+</html>
