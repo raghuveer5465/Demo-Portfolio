@@ -25,5 +25,5 @@ document.getElementById("viewBtn").addEventListener("click", function () {
   window.open("index1.html", "_blank");
 });
 document.getElementById("stuff").addEventListener("click", function(){
-  window.open("https://www.pornhub.org/video?c=29", "_blank");
+  window.open("https://leetcode.com/", "_blank");
 });
