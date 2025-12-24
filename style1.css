@@ -161,3 +161,34 @@
   margin-left: 34px;
 }
 }
+@media only screen and (max-width:480px){
+.form {
+  width: 70%;
+  margin: 30px 8px 20px 8px;
+}
+.duration {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 0.8;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 500;
+}
+.card video {
+  margin-top:16px;
+  height: fit-content;
+}
+#text {
+  margin-top: 17px;
+  font-size:8px;
+}
+.card {
+margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+}
